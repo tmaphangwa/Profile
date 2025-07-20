@@ -1,6 +1,11 @@
 
 .header {
-    background-image: url("img/profile.jpg");
+    background-image: linear-gradient(45deg, hwb(246 0% 0%), hsl(0, 98%, 49%)), url("img/sky.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    color: #ccd4c4;
 }
 
 .profile {
@@ -9,4 +14,13 @@
 
 .technologies span img{
     width: 80px;
+}
+
+.footer {
+    background-image: linear-gradient(45deg, hwb(246 0% 0%), hsl(0, 98%, 49%)), url("img/beach.gif");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    color: #7fa957;
 }
