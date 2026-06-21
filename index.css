@@ -1,6 +1,6 @@
 
 .header {
-    background-image: linear-gradient(45deg, hwb(246 0% 0%), hsl(0, 98%, 49%)), url("img/sky.gif");
+    background-image: linear-gradient(45deg, hsl(0, 0%, 2%), hwb(239 1% 3%));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,12 +12,22 @@
     width: 20%;
 }
 
+.skills {
+    background-image: linear-gradient(45deg, hwb(324 4% 77%), hsl(0, 0%, 5%));
+    color: #fff;
+}
+
+.projects {
+    background-image: linear-gradient(45deg, hwb(0 5% 95%), hsl(246, 100%, 50%));
+    color: #7fa957;
+}
+
 .technologies span img{
     width: 80px;
 }
 
 .footer {
-    background-image: linear-gradient(45deg, hwb(246 0% 0%), hsl(0, 98%, 49%)), url("img/beach.gif");
+    background-image: linear-gradient(45deg, hwb(246 0% 0%), hsl(0, 0%, 4%)), url("img/beach.gif");
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
